@@ -25,6 +25,7 @@
 <link rel="stylesheet" type="text/css" href="assets/css/plugins.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/dark.css" />
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/style-switcher.css" />
 <!--<link rel="stylesheet" type="text/css" href="css/dark.css" />-->
 <!--[if lt IE 9]> <script type="text/javascript" src="assets/js/modernizr.custom.js"></script> <![endif]-->
 <!-- /STYLES -->
@@ -68,14 +69,7 @@
 					</a>
 				</div>
 				<div class="right">
-					<div class="bg-checkbox" style="margin-right: 30px">
-						<input type="checkbox" class="checkbox" id="chk" />
-						<label class="label" for="chk">
-							<i class="fas fa-moon"></i>
-							<i class="fas fa-sun"></i>
-							<div class="ball"></div>
-						</label>
-					</div>
+
 					<div class="social">
 						<ul>
 							<li><a href="https://www.facebook.com/profile.php?id=100009242350772"><img class="svg" src="assets/img/svg/social/facebook.svg" alt="" /></a></li>
@@ -1694,12 +1688,30 @@
 	
 </div>
 <!-- / WRAPPER ALL -->
-	
+<!-- Style Switcher Start -->
+<div class="style-switcher">
+	<div class="style-switcher-toggler s-icon">
+		<i class="fas fa-cog fa-spin"></i>
+	</div>
+	<div class="day-night s-icon">
+		<i class="fas"></i>
+	</div>
+	<h4>Theme Colors </h4>
+	<div class="colors">
+		<span class="color-1" onclick="setActiveStyle('color-1')"></span>
+		<span class="color-2" onclick="setActiveStyle('color-2')"></span>
+		<span class="color-3" onclick="setActiveStyle('color-3')"></span>
+		<span class="color-4" onclick="setActiveStyle('color-4')"></span>
+		<span class="color-5" onclick="setActiveStyle('color-5')"></span>
+	</div>
+</div>
+<!-- Style Switcher End -->
 <!-- SCRIPTS -->
 <script src="assets/js/jquery.js"></script>
 <!--[if lt IE 10]> <script type="text/javascript" src="assets/js/ie8.js"></script> <![endif]-->
 <script src="assets/js/plugins.js"></script>
 <script src="assets/js/init.js"></script>
+<script src="assets/js/styleSwitcher.js"></script>
 <!-- /SCRIPTS -->
 
 </body>
