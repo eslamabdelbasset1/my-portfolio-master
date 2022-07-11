@@ -43,8 +43,9 @@ if (darkMode === "true") {
 
 dayNight.addEventListener("click", (e) => {
   darkMode = localStorage.getItem("dark-mode");
-  dayNight.querySelector("i").classList.toggle("fa-moon");
   dayNight.querySelector("i").classList.toggle("fa-sun");
+  dayNight.querySelector("i").classList.toggle("fa-moon");
+
   if (darkMode === "false") {
     enableDarkMode();
   } else {
@@ -53,5 +54,5 @@ dayNight.addEventListener("click", (e) => {
 });
 
 window.addEventListener("load", () => {
-  dayNight.querySelector("i").classList.add("fa-moon");
+  dayNight.querySelector("i").classList.add("fa-sun");
 });
