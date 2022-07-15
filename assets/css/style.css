@@ -5113,7 +5113,7 @@ input[type=number] {
 
 
 .label {
-	background-color: #1D1B1B;
+	/*background-color: #1D1B1B;*/
 	border-radius: 50px;
 	cursor: pointer;
 	display: flex;
@@ -5122,7 +5122,7 @@ input[type=number] {
 	padding: 5px;
 	position: relative;
 	height: 22px;
-	width: 50px;
+	/*width: 50px;*/
 	transform: scale(1.5);
 }
 

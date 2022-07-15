@@ -654,13 +654,13 @@ function iknow_tm_circular_progress(){
 	var circVal;
 
 	if(ww > 1400){
-		circVal = 213;
+		circVal = 130;
 	}
 	else if(ww >= 768){
-		circVal = 170;
+		circVal = 110;
 	}
 	else{
-		circVal = 120;
+		circVal = 90;
 	}
 
 	jQuery('.circular_progress_bar .myCircle').each(function(){
@@ -690,13 +690,13 @@ function by_frenify(wrapper,speed){
 	var circVal;
 
 	if(ww > 1400){
-		circVal = 213;
+		circVal = 130;
 	}
 	else if(ww >= 768){
-		circVal = 170;
+		circVal = 110;
 	}
 	else{
-		circVal = 120;
+		circVal = 90;
 	}
 
 	var element = wrapper.find('.myCircle');
