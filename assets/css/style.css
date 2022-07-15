@@ -5150,3 +5150,57 @@ input[type=number] {
 .bg-checkbox .fas{
 	font-size: 14px;
 }
+
+#contact > div > div.topbar_inner
+{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+
+}
+#contact > div > div.topbar_inner .right
+{
+	display: flex;
+	align-items: center;
+}
+#contact .topbar_inner .social {
+	position: relative;
+	top: 3px;
+}
+
+
+#contact .topbar_inner .social ul {
+	margin: 0px;
+	list-style-type: none;
+	display: flex;
+}
+#contact .topbar_inner .social ul li {
+	margin: 0px 15px 0px 0px;
+	display: inline-block;
+}
+#contact .topbar_inner .social ul li a{
+	text-decoration: none;
+	color: #000;
+}
+#contact .topbar_inner .social ul li .svg {
+	width: 22px;
+	height: 22px;
+	display: block;
+}
+
+#contact .topbar_inner .social ul li:hover .svg {
+	width: 27px;
+	height: 27px;
+	display: block;
+}
+
+@media screen and (min-width: 767px)
+{
+	#contact > div > div.topbar_inner{
+		display: none !important;
+	}
+}
