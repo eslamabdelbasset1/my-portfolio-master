@@ -3992,8 +3992,8 @@ input[type=number] {
 	z-index: 10;
 }
 .iknow_tm_extra_demo .iknow_tm_topbar .social .svg{
-	width: 45px !important;
-	height: 45px !important;
+	width: 35px !important;
+	height: 35px !important;
 }
 .iknow_tm_extra_demo .iknow_tm_topbar .right .social ul li{
 	margin-right: 8px;
@@ -4148,8 +4148,8 @@ input[type=number] {
 }
 .iknow_tm_sidebar_3 .image .main{
 	position: absolute;
-	width: 222px;
-	height: 222px;
+	width: 200px;
+	height: 255px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
